@@ -1,0 +1,28 @@
+body{
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ECF2FF;
+}
+.card{
+    box-shadow: rgba(61, 108, 236, 0.15) 0px 3px 8px;
+    border-radius: 2rem;
+    width: 650px;
+    background-color:#FFFFFF;
+}
+.card_container{
+    display: flex;
+    justify-content:space-between;
+}
+.result{
+    width:50%;
+    padding:1.5rem 2rem;
+    border-radius:2rem;
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
