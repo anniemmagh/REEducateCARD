@@ -26,3 +26,131 @@ body{
     align-items: center;
     gap: 1rem;
 }
+.result .title {
+    color: #CAC9FF;
+    margin-bottom: 1rem;
+}
+.result .circle {
+    width:150px;
+    height: 150px;
+    border-radius:50%;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+
+}
+.circle h1 {
+    color: white;
+    font-size: 4rem;
+}
+.circle p {
+    color: #CAC9FF;
+}
+.result b{
+    color:white ;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.result .info {
+    color: #CAC9FF;
+    width: 200px;
+}
+.summary{
+    width: 50%;
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.summary .title {
+    color: black;
+    font-weight:800 ;
+}
+.rows{
+   display: flex;
+   flex-direction: column;
+   gap: 0.8rem; 
+}
+.row{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem 0.5rem;
+}
+.row:nth-child(1){
+    background:linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+}
+.row:nth-child(1) .badge b {
+    color:#FF5555 ;
+}
+.row:nth-child(2){
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
+}
+.row:nth-child(2) .badge b {
+    color:#FFB21E ;
+}
+.row:nth-child(3){
+    background:linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
+}
+.row:nth-child(3) .badge b {
+    color:#00BB8F
+    ;
+}
+.row:nth-child(4){
+    background:linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
+}
+.row:nth-child(4) .badge b {
+    color:#1125D6
+    ;
+}
+.badge{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.row p {
+    color: gray;
+}
+.row p b{color: #303B59;}
+.btn {
+    margin-top:auto;
+    padding:1rem;
+    border: none;border-radius:2rem;
+    background: #303B59;
+    cursor: pointer;
+    font-size: 1rem;
+    color:white;
+    transition:.3s ease;
+}
+.btn:hover{
+    background:#3558b9 ;
+
+}
+@media screen and (max-width:650px){
+    body {
+        align-items: flex-start;
+        background-color: white;
+    }
+    .card{
+        box-shadow: none;
+
+    }
+    .card_container{
+        flex-direction: column;
+    }
+    .result{
+        width: 100%;
+        border-radius: 0 0 1rem 1rem;
+
+    }
+    .result .info {
+        width:250px;
+    }
+    .summary{
+        width: 100%;
+    }
+}
+
